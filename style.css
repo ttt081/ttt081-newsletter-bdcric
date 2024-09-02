@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(230, 250, 230);
+}
+
+.heading h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-bd {
+  width: 988px;
+  height: 555px;
+}
+
+.text-p {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 250px;
+  height: 50px;
+  border: 5px solid black;
+  font-size: larger;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 265px;
+  height: 50px;
+}
+
+.toc-p {
+  font-size: large;
+  font-style: italic;
+}
+.toc-p a {
+  color: blueviolet;
+}
+
+.heading,
+.box,
+.bttn,
+.toc-p {
+  display: flex;
+  justify-content: center;
+}
